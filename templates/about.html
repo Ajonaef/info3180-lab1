@@ -3,9 +3,15 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
- <h1>Ajonae A Flemmings</h1>
- <p>I am a 21 year old student at the University of the West Indies pursuing a Bachelor of Science degree in Computer Science. I have an older brother, Akeem and a niece and nephew, Asia and Cairo. I was born and raised in Portland, Jamaica. Prior to attending university, I also attended Boundbrook Infant, Bethesda Basic, Boundbrook Primary and Titchfield High School - where I was named the Class of 2020 Valedictorian. I greatly enjoy taking naps and do so whenever I get the chance to.</p>
+ <h1>Ajonae Akelia Flemmings</h1>
+ <p>I am a 21 year old student at the University of the West Indies pursuing a Bachelor of Science 
+degree in Computer Science. I have an older brother, Akeem and a niece and nephew, Asia and Cairo. 
+I was born on February 28th 2003 and raised in Portland, Jamaica. Prior to attending university, I also attended Boundbrook 
+Infant, Bethesda Basic, Boundbrook Primary and Titchfield High School - where I was named the Class of 
+2020 Valedictorian. I greatly enjoy taking naps and do so whenever I get the chance to.</p>
+<img src="{{ url_for('static', filename='me.jpg') }}" alt="My Picture">
 </body>
 </html>
